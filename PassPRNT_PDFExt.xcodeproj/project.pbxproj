@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3B889E652D9D898300837433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B889E462D9D898100837433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B889E4D2D9D898100837433;
+			remoteInfo = PassPRNT_PDFExt;
+		};
+		3B889E6F2D9D898300837433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B889E462D9D898100837433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B889E4D2D9D898100837433;
+			remoteInfo = PassPRNT_PDFExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B889E4E2D9D898100837433 /* PassPRNT_PDFExt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassPRNT_PDFExt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B889E642D9D898300837433 /* PassPRNT_PDFExtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassPRNT_PDFExtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B889E6E2D9D898300837433 /* PassPRNT_PDFExtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassPRNT_PDFExtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3B889E762D9D898400837433 /* Exceptions for "PassPRNT_PDFExt" folder in "PassPRNT_PDFExt" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3B889E4D2D9D898100837433 /* PassPRNT_PDFExt */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3B889E502D9D898100837433 /* PassPRNT_PDFExt */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3B889E762D9D898400837433 /* Exceptions for "PassPRNT_PDFExt" folder in "PassPRNT_PDFExt" target */,
+			);
+			path = PassPRNT_PDFExt;
+			sourceTree = "<group>";
+		};
+		3B889E672D9D898300837433 /* PassPRNT_PDFExtTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PassPRNT_PDFExtTests;
+			sourceTree = "<group>";
+		};
+		3B889E712D9D898300837433 /* PassPRNT_PDFExtUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PassPRNT_PDFExtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B889E4B2D9D898100837433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B889E612D9D898300837433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B889E6B2D9D898300837433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B889E452D9D898100837433 = {
+			isa = PBXGroup;
+			children = (
+				3B889E502D9D898100837433 /* PassPRNT_PDFExt */,
+				3B889E672D9D898300837433 /* PassPRNT_PDFExtTests */,
+				3B889E712D9D898300837433 /* PassPRNT_PDFExtUITests */,
+				3B889E4F2D9D898100837433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B889E4F2D9D898100837433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B889E4E2D9D898100837433 /* PassPRNT_PDFExt.app */,
+				3B889E642D9D898300837433 /* PassPRNT_PDFExtTests.xctest */,
+				3B889E6E2D9D898300837433 /* PassPRNT_PDFExtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B889E4D2D9D898100837433 /* PassPRNT_PDFExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B889E772D9D898400837433 /* Build configuration list for PBXNativeTarget "PassPRNT_PDFExt" */;
+			buildPhases = (
+				3B889E4A2D9D898100837433 /* Sources */,
+				3B889E4B2D9D898100837433 /* Frameworks */,
+				3B889E4C2D9D898100837433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3B889E502D9D898100837433 /* PassPRNT_PDFExt */,
+			);
+			name = PassPRNT_PDFExt;
+			packageProductDependencies = (
+			);
+			productName = PassPRNT_PDFExt;
+			productReference = 3B889E4E2D9D898100837433 /* PassPRNT_PDFExt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B889E632D9D898300837433 /* PassPRNT_PDFExtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B889E7C2D9D898400837433 /* Build configuration list for PBXNativeTarget "PassPRNT_PDFExtTests" */;
+			buildPhases = (
+				3B889E602D9D898300837433 /* Sources */,
+				3B889E612D9D898300837433 /* Frameworks */,
+				3B889E622D9D898300837433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B889E662D9D898300837433 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B889E672D9D898300837433 /* PassPRNT_PDFExtTests */,
+			);
+			name = PassPRNT_PDFExtTests;
+			packageProductDependencies = (
+			);
+			productName = PassPRNT_PDFExtTests;
+			productReference = 3B889E642D9D898300837433 /* PassPRNT_PDFExtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B889E6D2D9D898300837433 /* PassPRNT_PDFExtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B889E7F2D9D898400837433 /* Build configuration list for PBXNativeTarget "PassPRNT_PDFExtUITests" */;
+			buildPhases = (
+				3B889E6A2D9D898300837433 /* Sources */,
+				3B889E6B2D9D898300837433 /* Frameworks */,
+				3B889E6C2D9D898300837433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B889E702D9D898300837433 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3B889E712D9D898300837433 /* PassPRNT_PDFExtUITests */,
+			);
+			name = PassPRNT_PDFExtUITests;
+			packageProductDependencies = (
+			);
+			productName = PassPRNT_PDFExtUITests;
+			productReference = 3B889E6E2D9D898300837433 /* PassPRNT_PDFExtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B889E462D9D898100837433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3B889E4D2D9D898100837433 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3B889E632D9D898300837433 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3B889E4D2D9D898100837433;
+					};
+					3B889E6D2D9D898300837433 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3B889E4D2D9D898100837433;
+					};
+				};
+			};
+			buildConfigurationList = 3B889E492D9D898100837433 /* Build configuration list for PBXProject "PassPRNT_PDFExt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B889E452D9D898100837433;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3B889E4F2D9D898100837433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B889E4D2D9D898100837433 /* PassPRNT_PDFExt */,
+				3B889E632D9D898300837433 /* PassPRNT_PDFExtTests */,
+				3B889E6D2D9D898300837433 /* PassPRNT_PDFExtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B889E4C2D9D898100837433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B889E622D9D898300837433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B889E6C2D9D898300837433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B889E4A2D9D898100837433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B889E602D9D898300837433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B889E6A2D9D898300837433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B889E662D9D898300837433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B889E4D2D9D898100837433 /* PassPRNT_PDFExt */;
+			targetProxy = 3B889E652D9D898300837433 /* PBXContainerItemProxy */;
+		};
+		3B889E702D9D898300837433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B889E4D2D9D898100837433 /* PassPRNT_PDFExt */;
+			targetProxy = 3B889E6F2D9D898300837433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B889E782D9D898400837433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46688Y5639;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassPRNT_PDFExt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oreoluwa.PassPRNT-PDFExt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B889E792D9D898400837433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46688Y5639;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassPRNT_PDFExt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oreoluwa.PassPRNT-PDFExt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B889E7A2D9D898400837433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B889E7B2D9D898400837433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B889E7D2D9D898400837433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46688Y5639;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oreoluwa.PassPRNT-PDFExtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassPRNT_PDFExt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassPRNT_PDFExt";
+			};
+			name = Debug;
+		};
+		3B889E7E2D9D898400837433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46688Y5639;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oreoluwa.PassPRNT-PDFExtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassPRNT_PDFExt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PassPRNT_PDFExt";
+			};
+			name = Release;
+		};
+		3B889E802D9D898400837433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46688Y5639;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oreoluwa.PassPRNT-PDFExtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassPRNT_PDFExt;
+			};
+			name = Debug;
+		};
+		3B889E812D9D898400837433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46688Y5639;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oreoluwa.PassPRNT-PDFExtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassPRNT_PDFExt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B889E492D9D898100837433 /* Build configuration list for PBXProject "PassPRNT_PDFExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B889E7A2D9D898400837433 /* Debug */,
+				3B889E7B2D9D898400837433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B889E772D9D898400837433 /* Build configuration list for PBXNativeTarget "PassPRNT_PDFExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B889E782D9D898400837433 /* Debug */,
+				3B889E792D9D898400837433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B889E7C2D9D898400837433 /* Build configuration list for PBXNativeTarget "PassPRNT_PDFExtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B889E7D2D9D898400837433 /* Debug */,
+				3B889E7E2D9D898400837433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B889E7F2D9D898400837433 /* Build configuration list for PBXNativeTarget "PassPRNT_PDFExtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B889E802D9D898400837433 /* Debug */,
+				3B889E812D9D898400837433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B889E462D9D898100837433 /* Project object */;
+}
