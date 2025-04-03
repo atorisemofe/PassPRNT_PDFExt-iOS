@@ -14,7 +14,7 @@ PassPRNT_PDFExt is an iOS application that allows users to share PDF files for p
 1. Clone the repository:
    ```bash
    git clone https://github.com/atorisemofe/PassPRNT_PDFExt-iOS.git
-   cd PassPRNT_PDFExt_iOS
+   cd PassPRNT_PDFExt-iOS
 
 2. Open PassPRNT_PDFExt.xcodeproj in Xcode.
 
