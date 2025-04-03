@@ -1,4 +1,4 @@
-# PassPRNT_PDFExt (iOS)
+# PassPRNT_PDFExt-iOS
 
 PassPRNT_PDFExt is an iOS application that allows users to share PDF files for printing using **Star Micronics' PassPRNT** app. It processes shared files, sends them to PassPRNT, and closes both apps after printing.
 
